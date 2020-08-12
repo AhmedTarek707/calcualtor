@@ -1,0 +1,27 @@
+body{
+    color: chocolate;
+    background-color: aliceblue;
+    background-size: cover;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 100;
+    background-position: center;
+}
+input
+{
+    font-size: 15px;
+}
+button
+{
+    width: 55px;
+    height: 55px;
+    font-weight: 100;
+    font-size: 30px;
+    padding: 6px;
+}
+button.btequal
+{
+    width: 110px;
+    height: 55px;
+    font-size: 30px;
+}
