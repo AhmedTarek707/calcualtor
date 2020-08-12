@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Calculator</title>
+        <link  rel="stylesheet" href="css.css">
+        <script src="function.js"></script>
+    </head>
+    <body>
+        
+        <center>
+        <h1>My Calculator</h1><br>
+        <input type="radio" name="type" value="Hex" onclick="conver(16)" required>
+        <font color="cray" face="arial" size="4">Hex&nbsp;</font>
+        <input type="radio" name="type" value="Dec" onclick="conver(10)" checked required>
+        <font color="cray" face="arial" size="4">Dec&nbsp;</font>
+        <input type="radio" name="type" value="Oct" onclick="conver(8)" required>
+        <font color="cray" face="arial" size="4">Oct&nbsp;</font>
+        <input type="radio" name="type" value="Bin" onclick="conver(2)" required>
+        <font color="cray" face="arial" size="4">Bin&nbsp;</font>
+        <p>Input&nbsp;<input type="text" id="n1"></p><br>
+        <p>Result&nbsp;<input type="text" id="result" readonly></p><br>
+        <button onclick="add1(1)">1</button>
+        <button onclick="add1(2)">2</button>
+        <button onclick="add1(3)">3</button>
+        <button onclick="add(1)">+</button><br><br>
+        <button onclick="add1(4)">4</button>
+        <button onclick="add1(5)">5</button>
+        <button onclick="add1(6)">6</button>
+        <button onclick="add(2)">-</button><br><br>
+        <button onclick="add1(7)">7</button>
+        <button onclick="add1(8)">8</button>
+        <button onclick="add1(9)">9</button>
+        <button onclick="add(3)">*</button><br><br>
+        <button onclick="add1(0)">0</button>
+        <button onclick="add1('.')">.</button>
+        <button onclick="add(4)">%</button>
+        <button onclick="add(5)">/</button><br><br>
+        <button onclick="add1('-')">+/-</button>
+        <button onclick="clr()">c</button>
+        <button onclick="equ()" class="btequal">=</button>
+        </center>
+    </body>
+
+</html>
